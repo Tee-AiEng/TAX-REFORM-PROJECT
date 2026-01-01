@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.whl
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+runtime/
+
+# Notebook outputs (optional)
+# Uncomment if you want to ignore all notebooks' outputs
+# *.ipynb
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# dotenv
+.env
+
+# FAISS / vectorstore indexes and DBs
+faiss_index_agentic_rag/
+chroma_db/
+chromadb/
+
+# Logs and caches
+*.log
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.ropeproject/
+
+# Database files
+*.sqlite3
+*.db
+*.sqlite
+
+# pip self-check file
+pip-selfcheck.json
+
+# Local data folders (untracked by default)
+data/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
